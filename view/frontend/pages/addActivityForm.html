@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add Activity Form</title>
+    <script src="../js/dataValidation.js"></script>
+</head>
+
+<body>
+    <h1>Add Activity</h1>
+    <form id="addActivityForm" onsubmit="return validateAddActivityForm()">
+        <label for="id_activite">Activity ID:</label><br>
+        <input type="hidden" id="id_activite" name="id_activite"><br>
+
+        <label for="nomActivite">Activity Name:</label><br>
+        <input type="text" id="nomActivite" name="nomActivite" ><br>
+
+        <label for="type">Type:</label><br>
+        <input type="text" id="type" name="type" ><br>
+
+        <label for="description">Description:</label><br>
+        <input type="text" id="description" name="description" ><br>
+
+        <label for="duree">Duration:</label><br>
+        <input type="text" id="duree" name="duree" ><br>
+
+        <label for="id_evenement">Event ID:</label><br>
+        <input type="text" id="id_evenement" name="id_evenement" ><br>
+
+        <label for="difficulte">Difficulty:</label><br>
+        <input type="text" id="difficulte" name="difficulte" ><br>
+
+        <label for="categorie">Category:</label><br>
+        <input type="text" id="categorie" name="categorie" ><br>
+
+        <label for="prix">Price:</label><br>
+        <input type="text" id="prix" name="prix" ><br>
+
+        <input type="submit" value="Add">
+    </form>
+</body>
+
+</html>
